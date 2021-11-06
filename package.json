@@ -1,7 +1,7 @@
 {
-  "name": "set-template",
+  "name": "sets-template",
   "productName": "Svelte-Electron-Template",
-  "description": "A simple starter SET boilerplate",
+  "description": "Simple SETS template",
   "version": "0.0.1",
   "private": true,
   "main": "./build/index.js",
@@ -49,8 +49,8 @@
     "typescript": "^4.4.4"
   },
   "build": {
-    "productName": "SET-tempalte",
-    "appId": "set",
+    "productName": "SETS-Tempalte",
+    "appId": "SETS-template",
     "copyright": "Copyright © 2021 Fractal-Tess",
     "win": {
       "target": [
@@ -61,7 +61,7 @@
     "nsis": {
       "installerIcon": "./public/icon256.ico",
       "uninstallerIcon": "./public/icon256.ico",
-      "uninstallDisplayName": "SET",
+      "uninstallDisplayName": "SETS-template",
       "license": "./LICENSE",
       "oneClick": true,
       "allowToChangeInstallationDirectory": false
@@ -76,7 +76,7 @@
       {
         "provider": "github",
         "owner": "Fractal-Tess",
-        "repo": "svelte-electron-typescript-template"
+        "repo": "https://github.com/Fractal-Tess/SETS-Template"
       }
     ]
   }
